@@ -1,12 +1,14 @@
-// ComponentsApp.tsx
+7; // ComponentsApp.tsx
 
+import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import { View, Text } from 'react-native';
+// import { View, Text } from 'react-native';
+import { Navigator } from './presentation/navigator/Navigator';
 
 export const ComponentsApp = () => {
   return (
-    <View>
-      <Text>ComponentsApp</Text>
-    </View>
+    <NavigationContainer>
+      <Navigator />
+    </NavigationContainer>
   );
 };
