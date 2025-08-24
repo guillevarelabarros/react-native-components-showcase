@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RefreshControl, ScrollView } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors, globalStyles } from '../../../config/theme/theme';
-import { Title } from './Title';
+import { Title } from '../../components/ui/Title';
 
 export const PullToRefreshScreen = () => {
   const [isRefreshing, setIsRefreshing] = useState(false);
