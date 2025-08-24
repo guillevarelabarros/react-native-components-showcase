@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { View } from 'react-native';
-import { ScrollView, Text } from 'react-native-gesture-handler';
+import { ScrollView } from 'react-native-gesture-handler';
 import { globalStyles } from '../../../config/theme/theme';
 import { Title } from '../../components/ui/Title';
 import { MenuItem } from '../../components/ui/MenuItem';
