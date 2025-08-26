@@ -3,11 +3,9 @@ import { CustomView } from '../../components/ui/CustomView';
 import { Card } from '../../components/ui/Card';
 import { CustomSwitch } from '../../components/ui/CustomSwitch';
 import { Separator } from '../../components/ui/Separator';
+import { Title } from '../../components/ui/Title';
 
 export const SwitchScreen = () => {
-  // const [isEnabled, setIsEnabled] = useState(false);
-  // const toggleSwitch = () => setIsEnabled(previousState => !previousState);
-
   const [state, setState] = useState({
     isActive: true,
     isHungry: false,
@@ -15,7 +13,9 @@ export const SwitchScreen = () => {
   });
 
   return (
-    <CustomView style={{ marginTop: 100, paddingHorizontal: 10 }}>
+    <CustomView style={{ paddingHorizontal: 10 }}>
+      <Title text="Switches" safe />
+
       <Card>
         <CustomSwitch
           isOn={state.isActive}

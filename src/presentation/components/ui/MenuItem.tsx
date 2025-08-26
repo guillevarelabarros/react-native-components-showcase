@@ -1,12 +1,9 @@
-// MenuItem
-
-import React from 'react';
-import { View, Pressable, StyleSheet } from 'react-native';
-import { colors } from '../../../config/theme/theme';
-import Ionicons from '@react-native-vector-icons/ionicons';
-import { Text } from 'react-native-gesture-handler';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
 import { Separator } from './Separator';
+import { useContext } from 'react';
+import { ThemeContext } from '../../context/ThemeContext';
 
 interface Props {
   name: string;
@@ -23,8 +20,10 @@ export const MenuItem = ({
   component,
   isFirst = false,
   isLast = false,
-}) => {
+}: Props) => {
   const navigation = useNavigation<any>();
+
+  const { colors } = useContext(ThemeContext);
 
   return (
     <>
@@ -40,26 +39,26 @@ export const MenuItem = ({
             }),
             ...(isLast && {
               borderBottomLeftRadius: 10,
-              borderTopRightRadius: 10,
+              borderBottomRightRadius: 10,
               paddingBottom: 10,
             }),
           }}
         >
-          <Ionicons
+          <Icon
             name={icon}
             size={25}
             style={{ marginRight: 10 }}
             color={colors.primary}
           />
           <Text style={{ color: colors.text }}>{name}</Text>
-          <Ionicons
-            name={'chevron-forward-outline'}
+          <Icon
+            name="chevron-forward-outline"
             size={25}
-            style={{ marginLeft: 'auto' }}
-            color={colors.primary}
+            style={{ marginLeft: 'auto', color: colors.primary }}
           />
         </View>
       </Pressable>
+
       {!isLast && <Separator />}
     </>
   );
