@@ -1,4 +1,4 @@
-# 📱 React Native ComponentsApp
+# 📱 React Native ComponentsApp Showcase
 
 ![React Native](https://img.shields.io/badge/React%20Native-0.74-blue?style=flat&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)
