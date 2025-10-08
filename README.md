@@ -36,6 +36,8 @@ See the app in action: navigation, animations, theming, and reusable UI componen
 
 ## 📂 Project Structure
 
+```
+
 src
 ├── config
 │ ├── adapters
@@ -58,6 +60,8 @@ src
 │ └── ui
 └── ComponentsApp.tsx
 
+```
+
 ## 🚀 Installation & Run
 
 1. Clone the repository:
@@ -65,23 +69,13 @@ src
 ```bash
 git clone https://github.com/your-username/07-componentsApp.git
 cd 07-componentsApp
-
----
 ```
 
 2. Install dependencies:
 
----
-
 ```
 
 yarn install
-
-# or with npm
-
-npm install
-
----
 ```
 
 3. Run on Android:
@@ -91,7 +85,7 @@ npm install
 ```
 npx react-native run-android
 
----
+
 ```
 
 4. Run on iOS (requires Mac with Xcode):
@@ -103,37 +97,38 @@ npx react-native run-android
 npx pod-install ios
 npx react-native run-ios
 
----
 ```
 
 ## 📌 Features
 
-HomeScreen: entry point to all component demos.
+- HomeScreen: entry point to all component demos.
 
-UI Components: Buttons, Cards, Lists, Inputs, and custom UI.
+- UI Components: Buttons, Cards, Lists, Inputs, and custom UI.
 
-Animations: Animation 101/102 using useAnimation hook.
+- Animations: Animation 101/102 using useAnimation hook.
 
-Theme Switcher: live dark/light theme switching.
+- Theme Switcher: live dark/light theme switching.
 
-Prompts & Alerts: integrated with react-native-prompt-android.
+- Prompts & Alerts: integrated with react-native-prompt-android.
 
-Navigation: implemented with React Navigation + Context.
+- Navigation: implemented with React Navigation + Context.
 
 ## 📖 Key Learnings
 
-Modular architecture with config and presentation separation.
+- Modular architecture with config and presentation separation.
 
-Creation of custom hooks for animations and state handling.
+- Creation of custom hooks for animations and state handling.
 
-Usage of Context API for global theme management.
+- Usage of Context API for global theme management.
 
-Implementation of scalable, reusable UI components.
+- Implementation of scalable, reusable UI components.
 
 ## 👨‍💻 Author
 
 Guillermo Ignacio Varela Barros
-LinkedIn · GitHub
+
+- LinkedIn
+- GitHub
 
 ## 📝 License
 
