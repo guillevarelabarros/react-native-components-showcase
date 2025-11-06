@@ -11,7 +11,7 @@ It is an interactive catalog of components and utilities to **accelerate mobile 
 
 ## 🎥 Demo Video
 
-👉 [**Watch the Demo Video**](https://drive.google.com/your-video-link)
+👉 [**Watch the Demo Video**](https://youtube.com/shorts/CJrFrrbayvQ?feature=share)
 
 See the app in action: navigation, animations, theming, and reusable UI components.
 
@@ -21,8 +21,8 @@ See the app in action: navigation, animations, theming, and reusable UI componen
 
 <p align="center">
   <img src="./public/screen1.jpg" alt="App Screenshot" width="250"/>
-  <img src="./src/presentation/assets/slide-1.png" alt="Slide 1" width="250"/>
-  <img src="./src/presentation/assets/slide-2.png" alt="Slide 2" width="250"/>
+  <img src="./public/screen2.png" alt="Slide 1" width="250"/>
+  <img src="./public/screen3.png" alt="Slide 2" width="250"/>
 </p>
 
 ## 🛠️ Tech Stack
@@ -123,12 +123,19 @@ npx react-native run-ios
 
 - Implementation of scalable, reusable UI components.
 
+## 🔗 Useful Links
+
+- 📹 Demo: https://youtube.com/shorts/CJrFrrbayvQ?feature=share
+
+- 💻 Repository: https://github.com/guillevarelabarros/react-native-components-showcase
+
 ## 👨‍💻 Author
 
 Guillermo Ignacio Varela Barros
 
-- LinkedIn
-- GitHub
+- 🔗 LinkedIn: www.linkedin.com/in/guillevarelabarros
+
+- 💻 GitHub: https://github.com/guillevarelabarros
 
 ## 📝 License
 
